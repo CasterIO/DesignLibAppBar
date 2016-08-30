@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.caster.myapplication.MainActivity">
+
+    <ImageView
+        android:id="@+id/toolbar_image"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_marginRight="8dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/vct_happyface"/>
+
+    <TextView
+        android:id="@+id/ab_custom_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/toolbar_image"
+        android:textColor="@color/white"
+        android:text="Updated Title"/>
+
+    <TextView
+        android:id="@+id/ab_custom_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/toolbar_image"
+        android:text="Subtitle Text"
+        android:textColor="@color/white"
+        android:textStyle="italic"
+        android:layout_below="@+id/ab_custom_text"/>
+
+</RelativeLayout>

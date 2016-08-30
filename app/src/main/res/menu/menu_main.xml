@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_heart"
+        android:title="Heart"
+        android:icon="@drawable/ic_action_heart"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_star"
+        android:title="Star"
+        android:icon="@drawable/ic_action_star"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_joystick"
+        android:title="Joystick"
+        android:icon="@drawable/ic_action_joystick"
+        app:showAsAction="always" />
+</menu>
