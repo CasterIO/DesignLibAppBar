@@ -8,4 +8,49 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="CustomToolbarTheme" parent="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+        <!-- Apply Custom Color and feedback ripple to Menu buttons -->
+        <item name="colorControlNormal">@color/wacky_green</item>
+        <item name="colorControlHighlight">@color/wacky_yellow</item>
+
+        <!-- Change color of different texts -->
+        <item name="android:textColorPrimary">@color/wacky_blue</item>
+        <item name="actionMenuTextColor">@color/wacky_orange</item>
+    </style>
+
+    <!-- Modifies Toolbar Popup -->
+    <style name="CustomPopupStyle" parent="ThemeOverlay.AppCompat.Light">
+        <item name="android:colorBackground">@color/wacky_brown</item>
+        <item name="android:textColor">@color/wacky_pink</item>
+    </style>
+
 </resources>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!--&lt;!&ndash; Modifies Popup &ndash;&gt;-->
+    <!--<style name="CustomPopupStyle" parent="ThemeOverlay.AppCompat.Light">-->
+        <!--<item name="android:colorBackground">@color/wacky_brown</item>-->
+        <!--<item name="android:textColor">@color/wacky_pink</item>-->
+    <!--</style>-->
+
+

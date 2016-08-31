@@ -10,12 +10,11 @@
     <item
         android:id="@+id/action_star"
         android:title="Star"
-        android:icon="@drawable/ic_action_star"
         app:showAsAction="always" />
 
     <item
         android:id="@+id/action_joystick"
         android:title="Joystick"
         android:icon="@drawable/ic_action_joystick"
-        app:showAsAction="always" />
+        app:showAsAction="never" />
 </menu>

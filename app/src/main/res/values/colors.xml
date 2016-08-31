@@ -1,6 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#3F51B5</color>
-    <color name="colorPrimaryDark">#303F9F</color>
-    <color name="colorAccent">#FF4081</color>
+    <color name="colorPrimary">#5e35b1</color>
+    <color name="colorPrimaryDark">#4527a0</color>
+    <color name="colorAccent">#fdd835</color>
+
+    <color name="window_background">#FFF5F5F5</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="wacky_red">#b71c1c</color> <!-- Use with white text -->
+    <color name="wacky_orange">#ef6c00</color> <!-- Use with white text -->
+    <color name="wacky_blue">#2962ff</color> <!-- Use with white text -->
+    <color name="wacky_green">#43a047</color>
+    <color name="wacky_brown">#8d6e63</color>
+    <color name="wacky_pink">#c2185b</color>
+    <color name="wacky_yellow">#ffeb3b</color>
 </resources>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
